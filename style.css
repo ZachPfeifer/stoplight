@@ -15,6 +15,7 @@ html{
   position: relative;
   border: 5px solid black ;
 }
+
 #trafficsignal:before{
   content: ""; /* the protector above the signal*/
   background: black;
@@ -25,14 +26,20 @@ html{
   border-radius: 100%;
   z-index: -1;
 }
+
 #red{
-background: red
+  background: red;
+  width: 50%;
+  height: auto;
+  padding-top: 50%;
 }
+
 #yellow {
-  background: yellow
+  background: yellow;
 
 }
+
 #green {
-  background: green
+  background: green;
 
 }
