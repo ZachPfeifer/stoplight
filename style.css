@@ -1,5 +1,5 @@
 html{
-    background: black;
+    background: grey;
     padding: 40px;
     width: 170px;
     height: 100%;
@@ -16,5 +16,11 @@ html{
   border: 5px solid black ;
 }
 #trafficsignal:before{
-content: "";
+  content: ""; /* the protector above the signal*/
+  background: black;
+  width: 170px;
+  height: 150px;
+  position: absolute;
+  top: -20px;
+  
 }
