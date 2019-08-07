@@ -25,3 +25,14 @@ html{
   border-radius: 100%;
   z-index: -1;
 }
+#red{
+background: red
+}
+#yellow {
+  background: yellow
+
+}
+#green {
+  background: green
+
+}
