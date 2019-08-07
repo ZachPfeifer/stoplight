@@ -36,6 +36,9 @@ html{
   margin-top: 17px;
 
 }
+#red:hover{
+  box-shadow: 0px 0px 15px 20px rgb(rgba(255, 0, 0, 0.644))
+}
 
 #pred{
   text-align: center;
