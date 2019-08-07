@@ -28,10 +28,10 @@ html{
 }
 
 #red{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   background: red;
-  width: 50%;
-  height: auto;
-  padding-top: 50%;
 }
 
 #yellow {
